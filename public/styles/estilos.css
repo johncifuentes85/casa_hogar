@@ -1,0 +1,31 @@
+.fondo{
+    background-color: #07A1E1 !important;
+}
+
+.fuente{
+    font-family: 'Yaldevi', sans-serif;
+}
+.fuente1{
+    font-family: 'Luckiest Guy', cursive;
+}
+.intro{
+    text-align: justify;
+}
+.imgzoom{
+    transition: transform .2s;
+}
+
+.imgzoom:hover {
+  transform: scale(1.3);
+}
+
+.fondoAdopcion{
+    -webkit-filter: grayscale(100%);
+    background-image: url('../img/perritos4.jpg');
+    background-attachment: fixed;
+    height: 450px;
+    filter: grayscale(100%);
+}
+.fondoDos{
+    background-color: #e9e9e9;
+}
