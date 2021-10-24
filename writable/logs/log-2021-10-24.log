@@ -1,0 +1,57 @@
+CRITICAL - 2021-10-24 14:06:05 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Desarrollo\\h...')
+#1 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Desarrollo\htdocs\casahogar\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-24 14:06:14 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Desarrollo\htdocs\casahogar\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('/productos/regi...')
+#1 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('/productos/regi...')
+#2 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Desarrollo\htdocs\casahogar\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-24 14:06:18 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Desarrollo\\h...')
+#1 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Desarrollo\htdocs\casahogar\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-24 14:06:19 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Desarrollo\\h...')
+#1 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Desarrollo\htdocs\casahogar\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-24 14:06:21 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Desarrollo\\h...')
+#1 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Desarrollo\htdocs\casahogar\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-24 14:06:30 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Desarrollo\\h...')
+#1 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Desarrollo\htdocs\casahogar\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

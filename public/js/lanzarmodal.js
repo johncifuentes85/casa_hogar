@@ -1,2 +1,2 @@
-let modal = new bootstrap.Modal(document.getElementById('modalRta'))
+let modal = new bootstrap.Modal(document.getElementById('modalrespuesta'));
 modal.show();

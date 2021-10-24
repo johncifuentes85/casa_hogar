@@ -38,6 +38,7 @@ $routes->post('/productos/registros/nuevo', 'Productos::registrar');
 $routes->post('/animales/registros/nuevo', 'Animales::registrar');
 
 
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

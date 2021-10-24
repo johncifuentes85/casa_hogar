@@ -64,18 +64,19 @@
                             <input type="text" class="form-control" id="fotografia" aria-describedby="fotografia" name="fotografia">
                         </div>
                         <div class="mb-3">
-                            <label for="floatingTexttarea">Descripcion</label>
-                            <textarea type="text" class="form-control" name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Descripcion" name="descripcion" style="height: 100px"></textarea>
+                                <label for="floatingTextarea">Descripción</label>
+                            </div>
                         </div>
                         <div class="mb-3">
-                            <label for="precioUnidad" class="form-label">Tipo de animal:</label>
-                            <select class="form-select" name="tipo" id="tipo">
-                                <option value="">Perro</option>
-                                <option value="">Gatos</option>
-                                <option value="">Aves</option>
-                                <option value="">Peces</option>
-                                <option value="">Caballos</option>
-                                <option value="">Reptiles</option>
+                            <label class="form-label">Tipo de animal:</label>
+                            <select class="form-select" name="tipo">
+                                <option value="1" selected>Perro</option>
+                                <option value="2">Gato</option>
+                                <option value="3">Ave</option>
+                                <option value="4">Caballo</option>
+                                <option value="5">Reptil</option>
                             </select>
                         </div>
                         <button type="submit" class="btn btn-primary">Registrar</button>
@@ -89,19 +90,21 @@
     </main>
     <section>
         <?php if (session('mensaje')) : ?>
-            <div class="modal fade" id="modalRta" tabindex="-1">
+
+            <div class="modal fade" id="modalrespuesta" tabindex="-1">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <div class="modal-header fondo">
-                            <h5 class="modal-title">Casa Hogar</h5>
+                        <div class="modal-header fondo text-white">
+                            <h5 class="modal-title text-center">Casa Hogar Peluditos</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <h5><?= session('mensaje')?></h5>
+                            <h5><?= session('mensaje') ?></h5>
                         </div>
                     </div>
                 </div>
             </div>
+
         <?php endif ?>
     </section>
 

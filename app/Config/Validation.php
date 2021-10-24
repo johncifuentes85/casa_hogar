@@ -38,6 +38,7 @@ class Validation
     ];
     
     public $producto = [
+
         'producto'=>'required',
         'fotografia'=>'required',
         'precio'=>'required',
@@ -46,6 +47,7 @@ class Validation
     ];
 
     public $animal = [
+        
         'nombre'=>'required',
         'fotografia'=>'required',
         'edad'=>'required',
