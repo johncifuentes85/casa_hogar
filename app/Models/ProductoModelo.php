@@ -4,10 +4,10 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ProductoModelo extends Model{
-    
+class ProductoModelo extends Model
+{
+
     protected $table      = 'productos';
     protected $primaryKey = 'id';
-
-    protected $allowedFields = ['producto', 'fotografia','precio','descripcion','tipo',];
+    protected $allowedFields = ['producto', 'fotografia', 'precio', 'descripcion', 'tipo',];
 }

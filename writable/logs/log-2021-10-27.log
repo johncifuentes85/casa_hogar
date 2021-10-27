@@ -1,0 +1,15 @@
+ERROR - 2021-10-27 08:40:26 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2021-10-27 08:40:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\Desarrollo\htdocs\casahogar\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Desarrollo\htdocs\casahogar\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Desarrollo\htdocs\casahogar\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Desarrollo\htdocs\casahogar\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Desarrollo\htdocs\casahogar\app\Controllers\Productos.php(81): CodeIgniter\BaseModel->findAll()
+#5 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(802): App\Controllers\Productos->buscar()
+#6 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Desarrollo\htdocs\casahogar\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

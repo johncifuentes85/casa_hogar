@@ -82,8 +82,9 @@
                         <button type="submit" class="btn btn-primary">Registrar</button>
                     </form>
                 </div>
-                <div class="col-6 align-self-center">
+                <div class="col-6 align-self-center text-center">
                     <img class="d-block w-100" src="<?= base_url('public/img/perritos6.jpg') ?>" alt="dog">
+                    <a href="<?= site_url('/productos/listado') ?>" class="btn btn-primary">Ver inventario</a>
                 </div>
             </div>
         </div>
