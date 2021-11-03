@@ -1,0 +1,10 @@
+CRITICAL - 2021-11-03 08:17:34 --> syntax error, unexpected '}'
+#0 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Desarrollo\\h...')
+#1 C:\Desarrollo\htdocs\casahogar\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\Desarrollo\htdocs\casahogar\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Desarrollo\htdocs\casahogar\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
