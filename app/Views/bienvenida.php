@@ -82,27 +82,27 @@
 			</div>
 			<div class="row d-flex justify-content-center text-center">
 				<div class="col-1 me-5">
-					<img class="img-fluid w100 imgzoom" src="<?= base_url('public/img/dog-icon.png')?>" alt="dog">
+					<a href="<?= site_url('/animales/listadotipo/' . $tipo=1) ?>"><img class="img-fluid w100 imgzoom" src="<?= base_url('public/img/dog-icon.png')?>" alt="dog"></a>
 					<h3>perros</h3>
 				</div>	
 				<div class="col-1 me-5">
-					<img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/cat-icon.png')?>" alt="cat">
+					<a href="<?= site_url('/animales/listadotipo/' . $tipo=2) ?>"><img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/cat-icon.png')?>" alt="cat"></a>
 					<h3>gatos</h3>
 				</div>	
 				<div class="col-1 me-5">
-					<img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/bird-icon.png')?>" alt="bird">
+					<a href="<?= site_url('/animales/listadotipo/' . $tipo=3) ?>"><img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/bird-icon.png')?>" alt="bird"></a>
 					<h3>aves</h3>
 				</div>	
 				<div class="col-1 me-5">
-					<img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/fish-icon.png')?>" alt="fish">
+					<a href="<?= site_url('/animales/listadotipo/' . $tipo=6) ?>"><img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/fish-icon.png')?>" alt="fish"></a>					
 					<h3>peces</h3>
 				</div>	
 				<div class="col-1 me-5">
-					<img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/horse-icon.png')?>" alt="horse">
+					<a href="<?= site_url('/animales/listadotipo/' . $tipo=4) ?>"><img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/horse-icon.png')?>" alt="horse"></a>					
 					<h3>caballos</h3>
 				</div>	
 				<div class="col-1 me-5">
-					<img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/reptile-icon.png')?>" alt="reptile">
+					<a href="<?= site_url('/animales/listadotipo/' . $tipo=5) ?>"><img class="img-fluid w100 imgzoom" src="<?=base_url('public/img/reptile-icon.png')?>" alt="reptile"></a>					
 					<h3>reptiles</h3>
 				</div>	
 			</div>

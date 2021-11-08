@@ -132,8 +132,5 @@ class Productos extends BaseController
             return redirect()->to(site_url('/productos/registros'))->with('mensaje', $error->getMessage());
         }
 
-            
-       
-
-    // }
+    }
 }

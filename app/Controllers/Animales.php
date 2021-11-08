@@ -58,4 +58,80 @@ class Animales extends BaseController
 
         }
     }
+
+    public function buscar(){
+
+        try {
+
+            $modelo = new AnimalModelo();
+            $resultado = $modelo->findAll();
+            $animales = array('animales'=>$resultado);
+            return view('listaAnimales', $animales);
+
+        } catch (\Exception $error) {
+
+            return redirect()->to(site_url('/animales/registros'))->with('mensaje', $error->getMessage());
+        }       
+    }
+
+    public function buscarTipo($tipo){
+
+        try {
+
+            $modelo = new AnimalModelo();
+            $resultado = $modelo->where('tipo', $tipo)->findAll();
+            $animales = array('animales'=>$resultado);
+            return view('listaAnimalesTipo', $animales);
+
+        } catch (\Exception $error) {
+
+            return redirect()->to(site_url('/animales/registros'))->with('mensaje', $error->getMessage());
+        }       
+    }
+
+    public function eliminar($id){
+
+        //echo("Eliminando al producto: ".$id); //para probar
+        try {
+
+            $modelo = new AnimalModelo();
+            $modelo->where('id', $id)->delete();
+            return redirect()->to(site_url('/animales/registros'))->with('mensaje', "Exito eliminado el animal");
+
+        } catch (\Exception $error) {
+
+            return redirect()->to(site_url('/animales/registros'))->with('mensaje', $error->getMessage());
+        }
+    }
+
+    public function editar($id){
+
+        //recibe datos
+        $nombre = $this->request->getPost("nombre");
+        $descripcion = $this->request->getPost("descripcion");
+
+        //hacer validacion de datos
+
+        //organizo los datos en un array asociativo
+
+        $datos = array(
+            "nombre" => $nombre,
+            "descripcion" => $descripcion,          
+        );
+
+        //echo("estamos editando el producto" .$id);
+        //print_r($datos);
+
+        try {
+
+            $modelo = new AnimalModelo(); //se crea un objeto de la clase modelo
+            $modelo->update($id, $datos);
+            return redirect()->to(site_url('/animales/registros'))->with('mensaje', "Exito editando el animal");
+
+        } catch (\Exception $error) {
+
+            return redirect()->to(site_url('/animales/registros'))->with('mensaje', $error->getMessage());
+        }
+
+    }
 }

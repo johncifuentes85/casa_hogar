@@ -77,13 +77,15 @@
                                 <option value="3">Ave</option>
                                 <option value="4">Caballo</option>
                                 <option value="5">Reptil</option>
+                                <option value="6">Pez</option>
                             </select>
                         </div>
                         <button type="submit" class="btn btn-primary">Registrar</button>
                     </form>
                 </div>
-                <div class="col-6 align-self-center">
+                <div class="col-6 align-self-center text-center">
                     <img class="d-block w-100" src="<?= base_url('public/img/perritos5.jpg') ?>" alt="dog">
+                    <a href="<?= site_url('/animales/listado') ?>" class="btn btn-primary">Ver peluditos</a>
                 </div>
             </div>
         </div>
