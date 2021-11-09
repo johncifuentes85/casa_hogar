@@ -49,7 +49,7 @@
                             <div class="card-body">
                                 <h5 class="card-title"><?= $animal["nombre"] ?></h5>
                                 <p class="card-text"><?= $animal["descripcion"] ?></p>
-                                <a data-bs-toggle="modal" data-bs-target="#confirmacion<?= $animal["id"] ?>" href="#" class="btn btn-primary"><i class="far fa-trash-alt"></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#confirmacion<?= $animal["id"] ?>" href="#" class="btn btn-danger"><i class="far fa-trash-alt"></i></a>
                                 <a data-bs-toggle="modal" data-bs-target="#editar<?= $animal["id"] ?>" href="#" class="btn btn-primary"><i class="far fa-edit"></i></i></a>
                             </div>
                         </div>

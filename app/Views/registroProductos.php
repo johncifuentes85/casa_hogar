@@ -79,12 +79,12 @@
                                 <option value="5">Reptil</option>
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-primary">Registrar</button>
+                        <button type="submit" class="btn btn-primary btn-lg">Registrar</button>
                     </form>
                 </div>
                 <div class="col-6 align-self-center text-center">
                     <img class="d-block w-100" src="<?= base_url('public/img/perritos6.jpg') ?>" alt="dog">
-                    <a href="<?= site_url('/productos/listado') ?>" class="btn btn-primary">Ver inventario</a>
+                    <a href="<?= site_url('/productos/listado') ?>" class="btn btn-success btn-lg">Ver inventario</a>
                 </div>
             </div>
         </div>

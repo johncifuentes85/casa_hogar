@@ -80,12 +80,12 @@
                                 <option value="6">Pez</option>
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-primary">Registrar</button>
+                        <button type="submit" class="btn btn-primary btn-lg">Registrar</button>
                     </form>
                 </div>
                 <div class="col-6 align-self-center text-center">
                     <img class="d-block w-100" src="<?= base_url('public/img/perritos5.jpg') ?>" alt="dog">
-                    <a href="<?= site_url('/animales/listado') ?>" class="btn btn-primary">Ver peluditos</a>
+                    <a href="<?= site_url('/animales/listado') ?>" class="btn btn-success btn-lg">Ver peluditos</a>
                 </div>
             </div>
         </div>
